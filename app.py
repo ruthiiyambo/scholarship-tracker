@@ -23,14 +23,22 @@ st.markdown(
         margin-bottom: 16px;
         background: #ffffff;
         box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+        color: #111827;
     }
     .card h3 {
         margin: 0 0 8px 0;
         font-size: 1.2rem;
+        color: #111827;
     }
     .meta {
         color: #6b7280;
         font-size: 0.9rem;
+    }
+    .card p {
+        color: #111827;
+    }
+    .card strong {
+        color: #111827;
     }
     .badge {
         display: inline-block;
@@ -43,7 +51,10 @@ st.markdown(
     .badge-open { background: #e7f9ef; color: #0f5132; }
     .badge-soon { background: #fff4d6; color: #7a5b00; }
     .badge-closed { background: #fde2e2; color: #842029; }
-    .link a { text-decoration: none; }
+    .link a {
+        text-decoration: none;
+        color: #1d4ed8;
+    }
     </style>
     """,
     unsafe_allow_html=True,
